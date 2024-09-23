@@ -4,13 +4,13 @@ import Footer from '@components/Footer'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="home-container"> {/* Use the unique class here */}
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Ai, Automation & Ads</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="home-main"> {/* Use the unique class here */}
         <Header title="Ai, Automation & Ads" />
         <p className="description">
           With Spencer

@@ -1,13 +1,46 @@
 .footer {
   width: 100%;
-  height: 100px;
+  height: 200px; /* Keeps the footer height constrained */
   border-top: 1px solid #eaeaea;
+  background: #efefef;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding: 0 10px; /* Adjust padding to fit text inside the block */
+  box-sizing: border-box; /* Ensures padding doesn't exceed the height */
 }
 
 .logo {
   height: 3em;
   margin: 5px;
+}
+
+
+.textAboveLogo {
+  font-size: 0.8rem;
+  margin-bottom: 1rem; /* Adds space between text and logo */
+  color: #333;
+}
+
+.footerLinks {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.footerLinks li {
+  margin: 0;
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footerLinks a:hover {
+  text-decoration: underline;
 }
