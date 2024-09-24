@@ -13,7 +13,7 @@ const DataDeletion = () => {
     
             <h2>Steps to Delete Your Data</h2>
             <ol>
-                <li>Email us at <a href="mailto:support@mediaevolution.agency">                                                                                                                                                                                                                                                                            ort@yourapp.com</a> from the account associated with your data.</li>
+                <li>Email us at <a href="mailto:support@mediaevolution.agency">support@mediaevolution.agency</a> from the account associated with your data.</li>
                 <li>Include the subject line: <strong>Data Deletion Request</strong>.</li>
                 <li>In the email, provide your full name, registered email, and any account information relevant to your request.</li>
             </ol>
