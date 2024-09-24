@@ -19,6 +19,9 @@ export default function Footer() {
             <li>
               <Link href="/terms-of-service">Terms of Service</Link>
             </li>
+            <li>
+              <Link href="/data-deletion">Data Deletion</Link>
+            </li>
           </ul>
         </nav>
       </footer>
